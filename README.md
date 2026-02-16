@@ -8,6 +8,10 @@ It also requires has a few built-in commands like echo, cd, pwd, export, unset, 
 
 Additionally, the shell deals with signal handling, specifically for ctrl-C, ctrl-D, and ctrl-\.
 
+## Requirements 
+
+The project is written in C and requires gcc for compilation and standard C libraries to run.
+
 ## Features
 
 - **Prompt Display:** Displays a prompt when waiting for new commands.
