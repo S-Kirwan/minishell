@@ -6,7 +6,7 @@ It has basic shell features: displaying a prompt, handling command history, and 
 
 It also requires has a few built-in commands like echo, cd, pwd, export, unset, env, and exit.
 
-Additionally, the shell deals with signal handling, specifically for ctrl-C, ctrl-D, and ctrl-\.
+Additionally, the shell deals with signal handling, specifically for ctrl-C, ctrl-D, and ctrl-\\.
 
 ## Requirements 
 
