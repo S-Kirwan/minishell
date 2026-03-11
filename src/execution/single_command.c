@@ -41,8 +41,7 @@ int	single_cmd(t_data *data, t_prcs *process)
 		cpid = fork();
 		if (cpid == 0)
 			execute_in_child(data, process, 0);
-		else
-			waitpid(cpid, &wstatus, 0);
+		waitpid(cpid, &wstatus, 0);
 	}
 	if (process->infilefd != STDIN_FILENO)
 		close(process->infilefd);
