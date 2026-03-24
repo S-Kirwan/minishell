@@ -10,7 +10,7 @@ Additionally, the shell deals with signal handling, specifically for ctrl-C, ctr
 
 ## Requirements 
 
-The project is written in C and requires gcc for compilation and standard C libraries to run.
+The project is written in C and requires gcc for compilation, standard C libraries, and the GNU readline library to run
 
 ## Features
 
