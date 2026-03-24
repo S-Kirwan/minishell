@@ -79,11 +79,8 @@ void	add_arguments(char **argv, t_token *traverser, int token_count)
 	{
 		if (traverser->type == WORD && traverser->prev->type == WORD)
 		{
-			if (argv + i != NULL)
-			{
-				argv[i] = ft_strdup(traverser->value);
-				i++;
-			}
+			argv[i] = ft_strdup(traverser->value);
+			i++;
 		}
 		traverser = traverser->next;
 	}
