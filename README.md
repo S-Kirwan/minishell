@@ -12,6 +12,10 @@ Additionally, the shell deals with signal handling, specifically for ctrl-C, ctr
 
 The project is written in C and requires gcc for compilation, standard C libraries, and the GNU readline library to run
 
+## Get Started
+
+To get started, clone the repo and run 'make' in your terminal
+
 ## Features
 
 - **Prompt Display:** Displays a prompt when waiting for new commands.
